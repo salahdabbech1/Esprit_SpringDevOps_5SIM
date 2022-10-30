@@ -1,7 +1,8 @@
 package com.esprit.examen.services;
 
-import java.util.List;
 import com.esprit.examen.entities.Operateur;
+
+import java.util.List;
 
 
 public interface IOperateurService {

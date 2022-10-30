@@ -1,9 +1,9 @@
 package com.esprit.examen.services;
 
+import com.esprit.examen.entities.Reglement;
+
 import java.util.Date;
 import java.util.List;
-
-import com.esprit.examen.entities.Reglement;
 
 public interface IReglementService {
 

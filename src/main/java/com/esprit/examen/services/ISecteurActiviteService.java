@@ -1,8 +1,8 @@
 package com.esprit.examen.services;
 
-import java.util.List;
-
 import com.esprit.examen.entities.SecteurActivite;
+
+import java.util.List;
 
 public interface ISecteurActiviteService {
 
