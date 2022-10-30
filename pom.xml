@@ -74,7 +74,7 @@
 			<artifactId>springfox-swagger-ui</artifactId>
 			<version>3.0.0</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.mockito/mockito-core -->
+		 <!--https://mvnrepository.com/artifact/org.mockito/mockito-core-->
 
 		<dependency>
 			<groupId>org.mockito</groupId>
@@ -89,7 +89,6 @@
 			<artifactId>javax.mail</artifactId>
 			<version>1.6.2</version>
 			</dependency>
-
 
 	</dependencies>
 
@@ -107,6 +106,7 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<version>${project.parent.version}</version>
 				<configuration>
 					<excludes>
 						<exclude>
@@ -121,8 +121,6 @@
 				<artifactId>maven-resources-plugin</artifactId>
 				<version>3.1.0</version>
 			</plugin>
-			
-		
 			<plugin>
 			    <groupId>org.apache.maven.plugins</groupId>
 			    <artifactId>maven-surefire-plugin</artifactId>
@@ -132,6 +130,11 @@
 			            <include>**/*Test.java</include>
 			        </includes>
 			    </configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.jacoco</groupId>
+				<artifactId>jacoco-maven-plugin</artifactId>
+				<version>0.8.8</version>
 			</plugin>
 		</plugins>
 	</build>
