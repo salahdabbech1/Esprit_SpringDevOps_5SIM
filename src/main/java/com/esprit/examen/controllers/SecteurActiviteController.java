@@ -36,8 +36,7 @@ public class SecteurActiviteController {
 	@PostMapping("/add-secteurActivite")
 	@ResponseBody
 	public SecteurActivite addSecteurActivite(@RequestBody SecteurActivite sa) {
-		SecteurActivite secteurActivite = secteurActiviteService.addSecteurActivite(sa);
-		return secteurActivite;
+		return secteurActiviteService.addSecteurActivite(sa);
 	}
 
 	// http://localhost:8089/SpringMVC/secteurActivite/remove-secteurActivite/{secteurActivite-id}
