@@ -8,7 +8,7 @@ achat,com.esprit.examen.services,OperateurServiceImpl,34,3,0,0,9,1,5,1,5,1
 achat,com.esprit.examen.services,ProduitServiceImpl,90,7,2,0,18,2,7,2,6,2
 achat,com.esprit.examen.services,StockServiceImpl,116,58,4,0,21,14,5,5,3,5
 achat,com.esprit.examen.controllers,StockRestController,28,3,0,0,8,1,5,1,5,1
-achat,com.esprit.examen.controllers,SecteurActiviteController,28,3,0,0,8,1,5,1,5,1
+achat,com.esprit.examen.controllers,SecteurActiviteController,29,0,0,0,8,0,6,0,6,0
 achat,com.esprit.examen.controllers,OperateurController,28,3,0,0,8,1,5,1,5,1
 achat,com.esprit.examen.controllers,FournisseurRestController,34,3,0,0,10,1,6,1,6,1
 achat,com.esprit.examen.controllers,FactureRestController,43,3,0,0,13,1,7,1,7,1
@@ -20,11 +20,12 @@ achat,com.esprit.examen,SpringFoxSwaggerConfig,0,80,0,0,0,22,0,6,0,6
 achat,com.esprit.examen.entities,Fournisseur,73,3,0,0,9,1,15,1,15,1
 achat,com.esprit.examen.entities,Reglement,63,3,0,0,8,1,13,1,13,1
 achat,com.esprit.examen.entities,Facture,93,3,0,0,11,1,19,1,19,1
-achat,com.esprit.examen.entities,Stock,41,27,0,0,3,10,7,6,7,6
+achat,com.esprit.examen.entities,Stock,72,0,0,0,14,0,14,0,14,0
 achat,com.esprit.examen.entities,DetailFacture,73,3,0,0,9,1,15,1,15,1
 achat,com.esprit.examen.entities,CategorieFournisseur,0,24,0,0,0,2,0,1,0,1
 achat,com.esprit.examen.entities,Produit,93,3,0,0,11,1,19,1,19,1
 achat,com.esprit.examen.entities,DetailFournisseur,63,3,0,0,8,1,13,1,13,1
 achat,com.esprit.examen.entities,CategorieProduit,43,3,0,0,6,1,9,1,9,1
 achat,com.esprit.examen.entities,Operateur,53,3,0,0,7,1,11,1,11,1
+achat,com.esprit.examen.entities,Stock.StockBuilder,74,0,0,0,1,0,8,0,8,0
 achat,com.esprit.examen.entities,SecteurActivite,43,3,0,0,6,1,9,1,9,1

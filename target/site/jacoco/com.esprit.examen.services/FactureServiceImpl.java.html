@@ -31,7 +31,7 @@ import java.util.Set;
 	
 	@Override
 	public List&lt;Facture&gt; retrieveAllFactures() {
-<span class="nc" id="L34">		List&lt;Facture&gt; factures = (List&lt;Facture&gt;) factureRepository.findAll();</span>
+<span class="nc" id="L34">		List&lt;Facture&gt; factures = factureRepository.findAll();</span>
 <span class="nc bnc" id="L35" title="All 2 branches missed.">		for (Facture facture : factures) {</span>
 <span class="nc" id="L36">			log.info(&quot; facture : &quot; + facture);</span>
 <span class="nc" id="L37">		}</span>
